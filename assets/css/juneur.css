@@ -1,0 +1,432 @@
+.background {
+  overflow: visible;
+}
+
+.juneurbranding {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-right: 28px;
+  float: right;
+  color: #fd5c3c;
+}
+
+.brandingtext {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 1;
+  margin: 13px auto 64px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Barrio, sans-serif;
+  color: #f0f0f0;
+  font-size: 112px;
+  line-height: 84px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+.brandingtext:hover {
+  -webkit-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
+  color: #f1f1f1;
+}
+
+.jobsection {
+  overflow: scroll;
+  padding-top: 0px;
+}
+
+.job-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 124px;
+  margin: 64px auto 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, .12);
+  color: #464646;
+  text-decoration: none;
+}
+
+.companylogo {
+  position: relative;
+  left: -42px;
+  top: -70px;
+  display: inline-block;
+  overflow: visible;
+  width: 84px;
+  height: 84px;
+  clear: left;
+  border-radius: 42px;
+  background-image: url('../images/example-bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0 0 36px -8px rgba(0, 0, 0, .54);
+}
+
+.jobinfo {
+  position: absolute;
+  display: inline-block;
+  height: 124px;
+  padding-top: 8px;
+  padding-left: 48px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.companyname {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.rolename {
+  font-family: Overpass, sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.timebar {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  width: 100%;
+  height: 12px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #5cbdff;
+  color: #ff4b00;
+}
+
+.cardcontents {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.details {
+  position: static;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  padding-top: 12px;
+  padding-right: 12px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+}
+
+.locationheading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.timeheading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.info-block {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 500px;
+  margin-top: 0px;
+  padding: 42px 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 30px 0 rgba(0, 0, 0, .16);
+}
+
+.addbutton {
+  display: block;
+  width: 150px;
+  margin: 28px auto 0px;
+  border-radius: 4px;
+  background-color: #fd5c3c;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+.infoblocktext {
+  display: block;
+  width: 50%;
+  margin: 1px auto 16px;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.brandingcontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.topblockinfo {
+  position: relative;
+  z-index: 3;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+html.w-mod-js *[data-ix="logo-pop"] {
+  opacity: 0;
+  -webkit-transform: scale(0.1, 0.1);
+  -ms-transform: scale(0.1, 0.1);
+  transform: scale(0.1, 0.1);
+}
+
+@media (max-width: 991px) {
+  .brandingtext {
+    position: relative;
+    z-index: 0;
+  }
+  .jobsection {
+    position: relative;
+    z-index: 2;
+  }
+  .job-card {
+    width: 70%;
+  }
+  .info-block {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .job-card {
+    width: 80%;
+    height: 104px;
+  }
+  .companylogo {
+    left: -32px;
+    top: -64px;
+    width: 64px;
+    height: 64px;
+  }
+  .jobinfo {
+    height: 104px;
+    padding-top: 0px;
+  }
+  .companyname {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .rolename {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .infoblocktext {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .juneurbranding {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 26px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .brandingtext {
+    position: absolute;
+    z-index: 2;
+    margin-right: 0px;
+  }
+  .job-card {
+    width: 90%;
+    height: 148px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .companylogo {
+    left: 17px;
+    top: -108px;
+    height: 64px;
+  }
+  .jobinfo {
+    overflow: hidden;
+    min-width: 3px;
+    margin-top: 40px;
+    padding-left: 16px;
+  }
+  .dynamic-job-list {
+    overflow: scroll;
+  }
+  .info-block {
+    width: 90%;
+  }
+  .addbutton {
+    margin-top: 28px;
+  }
+  .brandingcontainer {
+    height: 300px;
+  }
+  .topblockinfo {
+    position: relative;
+    z-index: 3;
+    padding-top: 36px;
+    padding-bottom: 24px;
+  }
+}
+
